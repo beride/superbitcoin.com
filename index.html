@@ -1,0 +1,739 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- The above 2 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Note there is no responsive meta tag here -->
+
+    <link rel="icon" href="img/logo.ico">
+
+    <title>Super Bitcoin</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]>
+    <script src="js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <script src="js/ie-emulation-modes-warning.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+
+<div class="navbar my-navbar  navbar-fixed-top">
+    <a class="navbar-brand my-brand visible-sm"><img src="img/top_logo.png"></a>
+    <div class="container">
+        <div class="navbar-header">
+            <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand my-brand hidden-sm"><img src="img/top_logo.png"></a>
+        </div>
+        <div class="navbar-collapse collapse" role="navigation">
+
+            <ul class="nav navbar-nav navbar-right my-nav">
+                <li><a id="home-btn">HOME</a></li>
+                <li><a id="feature-btn">FEATURES</a></li>
+                <li><a id="roadmap-btn">ROADMAP</a></li>
+                <li><a id="team-btn">TEAM</a></li>
+                <li><a id="faq-btn">FAQ</a></li>
+                <li><a id="resource-btn">RESOURCE</a></li>
+                <li class="li-cn"><a href="index_cn.html">中文</a></li>
+                <li class="li-line hidden-sm hidden-xs">
+                    <a><i class="line"></i></a>
+                </li>
+                <li class="li-en"><a class="violet" href="index.html">EN</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<div class="banner">
+    <div class="container">
+        <img class="big-logo" src="img/big-logo.png">
+        <br/>
+        <img class="font-logo" src="img/font-logo.png">
+        <h4 class="banner_h4">Make Bitcoin Great Again</h4>
+    </div>
+</div>
+<div class="feature">
+    <div class="container">
+        <div id="feature">
+        </div>
+        <h2 class="feature_title">FEATURES</h2>
+        <div class="row">
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>01</span>
+                </div>
+                <p class="feature_p">Smart Contract</p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>02</span>
+                </div>
+                <p class="feature_p">Lightening Network</p>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>03</span>
+                </div>
+                <p class="feature_p">Zero-knowledge proofs </p>
+            </div>
+            <div class="col-sm-6 col-md-3">
+                <div class="feature-yuan">
+                    <span>04</span>
+                </div>
+                <p class="feature_p">Bigger Blocks</p>
+            </div>
+            <!-- <div class="col-sm-6 col-md-4">
+                 <div class="feature-yuan">
+                     <span>05</span>
+                 </div>
+                 <p class="feature_p">Open source, fair and fair </p>
+             </div>
+             <div class="col-sm-6 col-md-4">
+                 <div class="feature-yuan">
+                     <span>...</span>
+                 </div>
+                 <p class="feature_p">...</p>
+             </div>-->
+        </div>
+    </div>
+</div>
+<div class="what">
+    <div class="container">
+        <h2 class="feature_title">What is Super Bitcoin?</h2>
+        <p class="what_min_title">
+            It’s an experiment, trying to implement promising solutions that the community has been proposing. <br/>
+            Talks are cheap, but actions valuable.
+        </p>
+        <div class="row">
+            <div class="col-md-4">
+                <img class="what-img" src="img/what1.png">
+                <p class="what2-title">Privacy</p>
+                <p class="feature_p">
+                    Add zero-knowledge proofs <br/>
+                    to protect privacy</p>
+            </div>
+            <div class=" col-md-4">
+                <img class="what-img" src="img/what2.png">
+                <p class="what2-title">Scalable</p>
+                <p class="feature_p">
+                    Support Turing complete smart contract <br/>
+                    easy to add new function</p>
+            </div>
+            <div class="clearfix visible-xs-block"></div>
+            <div class=" col-md-4">
+                <img class="what-img" src="img/what3.png">
+                <p class="what2-title">High-capacity</p>
+                <br class="feature_p">
+                Expand the block to 8MB
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="roadmap">
+    <div class="container">
+        <div id="roadmap"></div>
+        <div class="roadmap-bg-zone">
+        </div>
+        <h2 class="feature_title" style="color: #fff">ROADMAP</h2>
+        <div id="carousel-example-generic" class="carousel slide hidden-xs hidden-sm" data-ride="carousel"
+             style="height: 316px;overflow: hidden">
+            <!-- Indicators -->
+            <!--<ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+            </ol>-->
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="row">
+                        <!--<div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.10</p>
+                            <p class="roadmap_p">The project to establish</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.11.15</p>
+                            <p class="roadmap_p">Official website</p>
+                        </div>-->
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.12.17</p>
+                            <p class="roadmap_p">fork the blockchain at the height of 498888, a new beginning</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.3.31</p>
+                            <p class="roadmap_p">add smart contract to the Bitcoin</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.5.31</p>
+                            <p class="roadmap_p">implement zero-knowledge proofs to better protect privacy</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.11.30</p>
+                            <p class="roadmap_p">Remove dynamic checkpoint protection</p>
+                        </div>
+                    </div>
+                </div>
+                <!--<div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.5.31</p>
+                            <p class="roadmap_p">Add zero knowledge of proof to  protect privacy</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.11.30</p>
+                            <p class="roadmap_p">Remove dynamic checkpoint protection to achieve full centering</p>
+                        </div>
+                    </div>
+                </div>-->
+            </div>
+        </div>
+        <div id="carousel-example-generic2" class="carousel slide visible-sm " data-ride="carousel"
+             style="height: 316px;overflow: hidden">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic2" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic2" data-slide-to="1"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.12.17</p>
+                            <p class="roadmap_p">Split the block at block 498888 The great experiment has begun</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.3.31</p>
+                            <p class="roadmap_p">Add smart contract To increase the scalability of the BTC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.5.31</p>
+                            <p class="roadmap_p">Add zero-knowledge proofs to protect privacy</p>
+                        </div>
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.11.30</p>
+                            <p class="roadmap_p">Remove dynamic checkpoint protection </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="carousel-example-generic3" class="carousel slide visible-xs " data-ride="carousel"
+             style="height: 316px;overflow: hidden">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-example-generic3" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-example-generic3" data-slide-to="1"></li>
+                <li data-target="#carousel-example-generic3" data-slide-to="2"></li>
+                <li data-target="#carousel-example-generic3" data-slide-to="3"></li>
+            </ol>
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+
+                <div class="item active">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2017.12.17</p>
+                            <p class="roadmap_p">Split the block at block 498888 The great experiment has begun</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.3.31</p>
+                            <p class="roadmap_p">Add smart contract To increase the scalability of the BTC</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.5.31</p>
+                            <p class="roadmap_p">Add zero-knowledge proofs to protect privacy</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-3">
+                            <p class="roadmap-time">2018.11.30</p>
+                            <p class="roadmap_p">Remove dynamic checkpoint protection</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="team">
+    <div class="container">
+        <div id="team"></div>
+        <h2 class="feature_title">TEAM</h2>
+        <div class="row hidden-xs hidden-sm">
+            <div class=" col-md-6" id="ren2-w">
+                <div class="team-zone">
+                    <div class="row">
+                        <div id="ren2-min" style="display: none">
+                            <img class="ren-img" id="ren2" src="img/ren3.jpg">
+                            <p class="ren-name-min">Ranger Shi</p>
+                        </div>
+                        <div id="ren2-big">
+                            <div class="col-md-5">
+                                <img class="ren-img-big" src="img/ren3.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="ren-name">Ranger Shi</p>
+                                <p class="ren-job">Chief scientist</p>
+                                <div class="ren-lx-zone">
+                                    <a class="lx_ico1" target="_blank" href="https://www.facebook.com/shi.ranger">
+                                        <img class="lx_ico" src="img/lx_ico1_h.png">
+                                    </a>
+                                    <a class="lx_ico2" target="_blank" href="https://twitter.com/rangershi">
+                                        <img class="lx_ico" src="img/lx_ico2_h.png">
+                                    </a>
+                                    <!--<a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico3.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico4.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico5.png">
+                                    </a>-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3" id="ren1-w">
+                <div class="team-zone">
+                    <div class="row">
+                        <div id="ren1-min">
+                            <img class="ren-img" id="ren1" src="img/ren1.jpg">
+                            <p class="ren-name-min">Li Xiao Lai</p>
+                        </div>
+                        <div id="ren1-big" style="display: none">
+                            <div class="col-md-5">
+                                <img class="ren-img-big" src="img/ren1.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="ren-name">Li Xiao Lai</p>
+                                <p class="ren-job">Foundation Member</p>
+                                <div class="ren-lx-zone">
+                                    <a class="lx_ico1" target="_blank" href="https://www.facebook.com/xiaolai">
+                                        <img class="lx_ico" src="img/lx_ico1_h.png">
+                                    </a>
+                                    <a class="lx_ico2" target="_blank" href="https://twitter.com/xiaolai">
+                                        <img class="lx_ico" src="img/lx_ico2_h.png">
+                                    </a>
+                                    <a class="lx_ico4" target="_blank"
+                                       href="https://weibo.com/bylixiaolai?topnav=1&wvr=6&topsug=1&is_all=1">
+                                        <img class="lx_ico" src="img/lx_ico4_h.png">
+                                    </a>
+                                    <a class="lx_ico5" target="_blank" href="https://www.linkedin.com/in/lixiaolai">
+                                        <img class="lx_ico" src="img/lx_ico5_h.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-3" id="ren3-w">
+                <div class="team-zone">
+                    <div class="row">
+                        <div id="ren3-min">
+                            <img class="ren-img" id="ren3" src="img/ren2.jpg">
+                            <p class="ren-name-min">JiaPeng Lin</p>
+                        </div>
+                        <div id="ren3-big" style="display: none">
+                            <div class="col-md-5">
+                                <img class="ren-img-big" src="img/ren2.jpg">
+                            </div>
+                            <div class="col-md-7">
+                                <p class="ren-name">JiaPeng Lin</p>
+                                <p class="ren-job">Foundation Member</p>
+                                <div class="ren-lx-zone">
+                                    <!--<a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico1.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico2.png">
+                                    </a>
+                                    <a class="lx_ico_no">
+                                        <img class="lx_ico" src="img/lx_no_ico3.png">
+                                    </a>-->
+                                    <a class="lx_ico4" target="_blank" href="https://www.weibo.com/3155379">
+                                        <img class="lx_ico" src="img/lx_ico4_h.png">
+                                    </a>
+                                    <a class="lx_ico5" target="_blank" href="http://www.linkedin.com/in/linjiapeng">
+                                        <img class="lx_ico" src="img/lx_ico5_h.png">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row visible-xs visible-sm">
+            <div class=" col-md-3">
+                <div class="team-zone">
+                    <div class="row">
+                        <div>
+                            <img class="ren-img" src="img/ren3.jpg">
+                            <p class="ren-name-min">Ranger Shi</p>
+                            <p class="ren-job">Chief scientist</p>
+                            <div class="ren-lx-zone">
+                                <a class="lx_ico1" target="_blank" href="https://www.facebook.com/shi.ranger">
+                                    <img class="lx_ico" src="img/lx_ico1_h.png">
+                                </a>
+                                <a class="lx_ico2" target="_blank" href="https://twitter.com/rangershi">
+                                    <img class="lx_ico" src="img/lx_ico2_h.png">
+                                </a>
+                                <!-- <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico3.png">
+                                 </a>
+                                 <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico4.png">
+                                 </a>
+                                 <a class="lx_ico_no">
+                                     <img class="lx_ico" src="img/lx_no_ico5.png">
+                                 </a>-->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="team-zone">
+                    <div class="row">
+                        <div>
+                            <img class="ren-img" src="img/ren1.jpg">
+                            <p class="ren-name-min">Li Xiao Lai</p>
+                            <p class="ren-job">Foundation Member</p>
+                            <div class="ren-lx-zone">
+                                <a class="lx_ico1" target="_blank" href="https://www.facebook.com/xiaolai">
+                                    <img class="lx_ico" src="img/lx_ico1_h.png">
+                                </a>
+                                <a class="lx_ico2" target="_blank" href="https://twitter.com/xiaolai">
+                                    <img class="lx_ico" src="img/lx_ico2_h.png">
+                                </a>
+                                <a class="lx_ico4" target="_blank"
+                                   href="https://weibo.com/bylixiaolai?topnav=1&wvr=6&topsug=1&is_all=1">
+                                    <img class="lx_ico" src="img/lx_ico4_h.png">
+                                </a>
+                                <a class="lx_ico5" target="_blank" href="https://www.linkedin.com/in/lixiaolai">
+                                    <img class="lx_ico" src="img/lx_ico5_h.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class=" col-md-3 visible-xs visible-sm">
+                <div class="team-zone">
+                    <div class="row">
+                        <div>
+                            <img class="ren-img" src="img/ren2.jpg">
+                            <p class="ren-name-min">JiaPeng Lin</p>
+                            <p class="ren-job">Foundation Member</p>
+                            <div class="ren-lx-zone">
+                                <!--<a class="lx_ico_no">
+                                    <img class="lx_ico" src="img/lx_no_ico1.png">
+                                </a>
+                                <a class="lx_ico_no">
+                                    <img class="lx_ico" src="img/lx_no_ico2.png">
+                                </a>
+                                <a class="lx_ico_no">
+                                    <img class="lx_ico" src="img/lx_no_ico3.png">
+                                </a>-->
+                                <a class="lx_ico4" target="_blank" href="https://www.weibo.com/3155379">
+                                    <img class="lx_ico" src="img/lx_ico4_h.png">
+                                </a>
+                                <a class="lx_ico5" target="_blank" href="https://www.linkedin.com/in/linjiapeng">
+                                    <img class="lx_ico" src="img/lx_ico5_h.png">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="faq">
+    <div class="container">
+        <div id="faq"></div>
+        <h2 class="feature_title">FAQ</h2>
+        <div class="row">
+            <div class="col-sm-12" id="faq-zone">
+                <div class=" faq-zone">
+                    <div class="up-down">
+                        <img class="up-down-img" src="img/up.png">
+                    </div>
+                    <div class="faq-title">
+                        <div class="faq-dian">
+                            <i></i>
+                        </div>
+                        <div class="title-p">
+                            <p> What is a super bitcoin (SBTC)?</p>
+                        </div>
+                    </div>
+                    <div class="faq-a">
+                        The past 3 year-competition of the Bitcoin’s capacity expansion has prevented its development .
+                        We have lost a large market share due to the pressue from the smart contract of Ethereum and
+                        Zcash. Therefore, a large number of geeks and the renowned prefessionals in Bitcoin circle have
+                        been summoned to inject new momentum into Bitcoin. The Bitcoin will be forked at block 498888
+                        and new qualities will be incorporated as well. Furthermore, the original Bitcoin holders will
+                        be given one Super Bitcoin- for-one Bitcoin for free.
+                    </div>
+                </div>
+                <div class=" faq-zone">
+                    <div class="up-down">
+                        <img class="up-down-img" src="img/down.png">
+                    </div>
+                    <div class="faq-title">
+                        <div class="faq-dian">
+                            <i></i>
+                        </div>
+                        <div class="title-p">
+                            <p>What is the total amount of SBTC?</p>
+                        </div>
+                    </div>
+                    <div class="faq-a" style="display: none">
+                        SBTC totaled 21,210,000 of which 210,000 were pre-mine.
+                    </div>
+                </div>
+                <div class=" faq-zone">
+                    <div class="up-down">
+                        <img class="up-down-img" src="img/down.png">
+                    </div>
+                    <div class="faq-title">
+                        <div class="faq-dian">
+                            <i></i>
+                        </div>
+                        <div class="title-p">
+                            <p>Purposes of pre-mine SBTC？</p>
+                        </div>
+                    </div>
+                    <div class="faq-a" style="display: none">
+                        The 210,000 SBTC shall be managed by the foundation to encourage the early developers, invest
+                        ecological construction and operate the foundation.
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <h2 class="feature_title">RESOURCE</h2>
+            <div class="row">
+                <a class="" target="_blank" href="https://github.com/superbitcoin/SuperBitcoin">
+                    <img class="what-img resource-img" src="img/github.png">
+                </a>
+                <a class="" target="_blank" href="https://business.facebook.com/SBTC-1494328043999669">
+                    <img class="what-img resource-img" src="img/facebook.png">
+                </a>
+                <a class="" target="_blank" href="https://twitter.com/SuperBTC2">
+                    <img class="what-img resource-img" src="img/twitter.png">
+                </a>
+                <a class="" target="_blank"
+                   href="http://doc.supersmartbitcoin.com/en/developer-reference.html#block-chain">
+                    <img class="what-img resource-img" src="img/doc.png">
+                </a>
+                <a class="" target="_blank" href="https://t.me/superbitcoinofficial">
+                    <img class="what-img resource-img" src="img/telegram.png">
+                </a>
+                <a class="" target="_blank"
+                   href="https://medium.com/@sbtc.org">
+                    <img class="what-img resource-img" src="img/medium.png">
+                </a>
+                <!--<a class="" target="_blank" href="#">-->
+                <!--<img class="what-img resource-img" src="img/blockchain-brower.png">-->
+                <!--</a>-->
+            </div>
+        </div>
+    </div>
+</div>
+
+<div>
+    <div class="bottom-line"
+         style="width: 100%;background: #434343;padding-bottom: 20px;padding-top: 20px;text-align: center;">
+        <a style="color: #ffffff;font-size: 16px">Copyright © 2017 Superbitcoin All rights reserved</a>
+        <a style="color: #ffffff;margin-left: 20px;margin-right: 20px;font-size: 16px">CONTACT US:
+            ranger.shi@gmail.com</a>
+        <a style="color: #ffffff" href="https://github.com/Zzitao/supersmartbitcoin.com.git">
+            <img style="width: 24px" src="img/github.png"/>
+        </a>
+    </div>
+</div>
+
+<!-- Bootstrap core JavaScript
+================================================== -->
+<!-- Placed at the end of the document so the pages load faster -->
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+<script src="js/ie10-viewport-bug-workaround.js"></script>
+<script>
+    $(document).ready(function () {
+        $("#ren1").mouseenter(function () {
+            $("#ren2-w").removeClass("col-md-6");
+            $("#ren2-w").addClass("col-md-3");
+            $("#ren1-w").removeClass("col-md-3");
+            $("#ren1-w").addClass("col-md-6");
+            $("#ren3-w").removeClass("col-md-6");
+            $("#ren3-w").addClass("col-md-3");
+            $("#ren2-big").hide();
+            $("#ren2-min").show();
+            $("#ren1-big").show();
+            $("#ren1-min").hide();
+            $("#ren3-big").hide();
+            $("#ren3-min").show();
+        });
+        $("#ren2").mouseenter(function () {
+            $("#ren1-w").removeClass("col-md-6");
+            $("#ren1-w").addClass("col-md-3");
+            $("#ren2-w").removeClass("col-md-3");
+            $("#ren2-w").addClass("col-md-6");
+            $("#ren3-w").removeClass("col-md-6");
+            $("#ren3-w").addClass("col-md-3");
+            $("#ren1-big").hide();
+            $("#ren1-min").show();
+            $("#ren2-big").show();
+            $("#ren2-min").hide();
+            $("#ren3-big").hide();
+            $("#ren3-min").show();
+        });
+        $("#ren3").mouseenter(function () {
+            $("#ren1-w").removeClass("col-md-6");
+            $("#ren1-w").addClass("col-md-3");
+            $("#ren3-w").removeClass("col-md-3");
+            $("#ren3-w").addClass("col-md-6");
+            $("#ren2-w").removeClass("col-md-6");
+            $("#ren2-w").addClass("col-md-3");
+            $("#ren1-big").hide();
+            $("#ren1-min").show();
+            $("#ren3-big").show();
+            $("#ren3-min").hide();
+            $("#ren2-big").hide();
+            $("#ren2-min").show();
+        });
+        $("#faq-zone img").click(function () {
+            $(this).parents(".faq-zone").siblings().children(".faq-a").hide();
+            $(this).parents(".up-down").siblings(".faq-a").fadeIn("slow");
+        });
+        $(".faq-title").click(function () {
+            $(this).parents(".faq-zone").siblings().children(".faq-a").hide();
+            $(this).siblings(".faq-a").fadeIn("slow");
+            $(".up-down-img").attr("src", "img/down.png");
+            $(this).siblings(".up-down").children("img").attr("src", "img/up.png");
+
+        });
+        $(".lx_ico1").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico1.png");
+        });
+        $(".lx_ico2").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico2.png");
+        });
+        $(".lx_ico3").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico3.png");
+        });
+        $(".lx_ico4").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico4.png");
+        });
+        $(".lx_ico5").mouseenter(function () {
+            $(".lx_ico1").children("img").attr("src", "img/lx_ico1_h.png");
+            $(".lx_ico2").children("img").attr("src", "img/lx_ico2_h.png");
+            $(".lx_ico3").children("img").attr("src", "img/lx_ico3_h.png");
+            $(".lx_ico4").children("img").attr("src", "img/lx_ico4_h.png");
+            $(".lx_ico5").children("img").attr("src", "img/lx_ico5_h.png");
+            $(this).children("img").attr("src", "img/lx_ico5.png");
+        });
+        $("#home-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 0}, speed);
+            return false;
+        });
+        $("#feature-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 668}, speed);
+            return false;
+        });
+        $("#roadmap-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 1609}, speed);
+            return false;
+        });
+        $("#team-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 2112}, speed);
+            return false;
+        });
+        $("#faq-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 2652}, speed);
+            return false;
+        });
+        $("#resource-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 3052}, speed);
+            return false;
+        });
+    });
+</script>
+</body>
+</html>
