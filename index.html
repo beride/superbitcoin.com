@@ -55,6 +55,7 @@
                 <li><a id="feature-btn">FEATURES</a></li>
                 <li><a id="roadmap-btn">ROADMAP</a></li>
                 <li><a id="team-btn">TEAM</a></li>
+                <li><a id="support-btn">SUPPORT</a></li>
                 <li><a id="faq-btn">FAQ</a></li>
                 <li><a id="resource-btn">RESOURCE</a></li>
                 <li class="li-cn"><a href="index_cn.html">中文</a></li>
@@ -572,7 +573,7 @@
         <div>
             <h2 class="feature_title">RESOURCE</h2>
             <div class="row">
-				<a class="" target="_blank" href="https://t.me/superbitcoinofficial">
+                <a class="" target="_blank" href="https://t.me/superbitcoinofficial">
                     <img class="what-img resource-img" src="img/telegram.png">
                 </a>
                 <a class="" target="_blank" href="https://business.facebook.com/SBTC-1494328043999669">
@@ -588,7 +589,7 @@
                    href="https://medium.com/@sbtc.org">
                     <img class="what-img resource-img" src="img/medium.png">
                 </a>
-				<a class="" target="_blank"
+                <a class="" target="_blank"
                    href="http://doc.superbtc.org/en/developer-reference.html#block-chain">
                     <img class="what-img resource-img" src="img/doc.png">
                 </a>
@@ -599,7 +600,44 @@
         </div>
     </div>
 </div>
-
+<div class="team">
+    <div class="container">
+        <div id="support"></div>
+        <h2 class="feature_title">SUPPORT</h2>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">Exchange</div>
+            <a href="https://www.okex.com/" class="support_a">
+                <img src="img/sp_ok.png">
+            </a>
+            <a href="https://www.huobi.pro/zh-cn/" class="support_a">
+                <img src="img/sp_hb.png">
+            </a>
+            <a href="https://big.one/" class="support_a">
+                <img src="img/sp_bigone.png">
+            </a>
+            <a href="https://www.bitfinex.com/" class="support_a">
+                <img src="img/sp_bitfinex.png">
+            </a>
+        </div>
+        <p></p>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">Wallet</div>
+            <a href="https://www.btcchina.com/" class="support_a">
+                <img src="img/sp_btcc.png">
+            </a>
+            <a href="https://bixin.com/" class="support_a">
+                <img src="img/sp_bx.png">
+            </a>
+        </div>
+        <p></p>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">Media&Community</div>
+            <a href="https://www.bbex.io/" class="support_a">
+                <img src="img/sp_bbex.png">
+            </a>
+        </div>
+    </div>
+</div>
 <div>
     <div class="bottom-line"
          style="width: 100%;background: #434343;padding-bottom: 20px;padding-top: 20px;text-align: center;">
@@ -742,6 +780,11 @@
         $("#resource-btn").click(function () {
             var speed = 600;//滑动的速度
             $('body,html').animate({scrollTop: 3052}, speed);
+            return false;
+        });
+        $("#support-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 3200}, speed);
             return false;
         });
     });

@@ -36,7 +36,7 @@
 <body>
 
 <div class="navbar my-navbar  navbar-fixed-top">
-    <a class="navbar-brand my-brand visible-sm" ><img src="img/top_logo.png"></a>
+    <a class="navbar-brand my-brand visible-sm"><img src="img/top_logo.png"></a>
     <div class="container">
         <div class="navbar-header">
             <button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target=".navbar-collapse">
@@ -45,7 +45,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
             </button>
-            <a class="navbar-brand my-brand hidden-sm" ><img src="img/top_logo.png"></a>
+            <a class="navbar-brand my-brand hidden-sm"><img src="img/top_logo.png"></a>
         </div>
         <div class="navbar-collapse collapse" role="navigation">
 
@@ -54,6 +54,7 @@
                 <li><a id="feature-btn">特点</a></li>
                 <li><a id="roadmap-btn">路线图</a></li>
                 <li><a id="team-btn">团队</a></li>
+                <li><a id="support-btn">支持</a></li>
                 <li><a id="faq-btn">FAQ</a></li>
                 <li><a id="resource-btn">资源</a></li>
                 <li class="li-cn"><a class="violet" href="index_cn.html">中文</a></li>
@@ -67,7 +68,7 @@
 </div>
 <div class="banner">
     <div class="container">
-        <img class="big-logo" src="img/big-logo.png" >
+        <img class="big-logo" src="img/big-logo.png">
         <br/>
         <img class="font-logo" src="img/font-logo.png">
         <h4 class="banner_h4">Make Bitcoin Great Again</h4>
@@ -573,7 +574,7 @@
         <div>
             <h2 class="feature_title">资源</h2>
             <div class="row" style="text-align:center">
-				<a class="" target="_blank" href="https://t.me/superbitcoinofficial">
+                <a class="" target="_blank" href="https://t.me/superbitcoinofficial">
                     <img class="what-img resource-img" src="img/telegram.png">
                 </a>
                 <a class="" target="_blank" href="https://business.facebook.com/SBTC-1494328043999669">
@@ -582,13 +583,13 @@
                 <a class="" target="_blank" href="https://twitter.com/SuperBTC2">
                     <img class="what-img resource-img" src="img/twitter.png">
                 </a>
-				<a class="" target="_blank" href="https://github.com/superbitcoin/SuperBitcoin">
+                <a class="" target="_blank" href="https://github.com/superbitcoin/SuperBitcoin">
                     <img class="what-img resource-img" src="img/github.png">
                 </a>
                 <a class="" target="_blank" href="https://medium.com/@sbtc.org">
                     <img class="what-img resource-img" src="img/medium.png">
                 </a>
-				<a class="" target="_blank"
+                <a class="" target="_blank"
                    href="http://doc.superbtc.org/en/developer-reference.html#block-chain">
                     <img class="what-img resource-img" src="img/doc.png">
                 </a>
@@ -599,7 +600,44 @@
         </div>
     </div>
 </div>
-
+<div class="team">
+    <div class="container">
+        <div id="support"></div>
+        <h2 class="feature_title">支持</h2>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">交易所</div>
+            <a href="https://www.okex.com/" class="support_a">
+                <img src="img/sp_ok.png">
+            </a>
+            <a href="https://www.huobi.pro/zh-cn/" class="support_a">
+                <img src="img/sp_hb.png">
+            </a>
+            <a href="https://big.one/" class="support_a">
+                <img src="img/sp_bigone.png">
+            </a>
+            <a href="https://www.bitfinex.com/" class="support_a">
+                <img src="img/sp_bitfinex.png">
+            </a>
+        </div>
+        <p></p>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">钱包</div>
+            <a href="https://www.btcchina.com/" class="support_a">
+                <img src="img/sp_btcc.png">
+            </a>
+            <a href="https://bixin.com/" class="support_a">
+                <img src="img/sp_bx.png">
+            </a>
+        </div>
+        <p></p>
+        <div class="row" style="text-align: center">
+            <div class="support_tittle">媒体&社区</div>
+            <a href="https://www.bbex.io/" class="support_a">
+                <img src="img/sp_bbex.png">
+            </a>
+        </div>
+    </div>
+</div>
 <div>
     <div class="bottom-line"
          style="width: 100%;background: #434343;padding-bottom: 20px;padding-top: 20px;text-align: center;">
@@ -745,6 +783,11 @@
         $("#resource-btn").click(function () {
             var speed = 600;//滑动的速度
             $('body,html').animate({scrollTop: 3052}, speed);
+            return false;
+        });
+        $("#support-btn").click(function () {
+            var speed = 600;//滑动的速度
+            $('body,html').animate({scrollTop: 3200}, speed);
             return false;
         });
     });

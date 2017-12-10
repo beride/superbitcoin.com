@@ -19,7 +19,7 @@ body {
 }
 
 .my-nav.nav > li > a {
-    padding: 40px 30px;
+    padding: 40px 20px;
     color: #4c4c4c;
     font-weight: bold;
 }
@@ -484,7 +484,7 @@ body {
 
 @media (max-width: 992px) {
     .my-nav.nav > li > a {
-        padding: 40px 20px;
+        padding: 30px 20px;
         color: #4c4c4c;
         font-weight: bold;
     }
@@ -535,7 +535,7 @@ body {
     }
 
     .my-nav.nav > li > a {
-        padding: 10px 15px;
+        padding: 10px 10px;
         color: #4c4c4c;
         font-weight: bold;
     }
@@ -643,7 +643,21 @@ body {
         padding-bottom: 10px;
     }
 
-    .bottom-line a{
+    .bottom-line a {
         color: #ffffff;
     }
+
+}
+
+.support_a {
+    display: inline-block;
+    background-color: #FFFFFF;
+    margin-right: 5px
+}
+
+.support_tittle {
+    text-align: center;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-size: 16px
 }
